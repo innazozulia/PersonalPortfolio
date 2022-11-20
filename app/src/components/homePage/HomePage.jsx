@@ -5,6 +5,8 @@ import Portfolio from "../portfolio/Portfolio";
 import Works from "../works/Works";
 import Contacts from "../contacts/Contacts";
 import Menu from "../menu/Menu";
+// import Download from "../download/Download";
+// import Footer from "../footer/Footer";
 
 import "./homePage.scss";
 
@@ -24,7 +26,9 @@ function HomePage() {
         <Intro />
         <Portfolio />
         <Works />
+        {/* <Download /> */}
         <Contacts />
+        {/* <Footer /> */}
       </div>
     </div>
   );

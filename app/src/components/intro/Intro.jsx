@@ -21,7 +21,6 @@ const Intro = () => {
       <div className="right">
         <div className="img-container">
           <img
-            // src="assets/i.jpeg"
             src="assets/ii.png"
             alt=""
           />

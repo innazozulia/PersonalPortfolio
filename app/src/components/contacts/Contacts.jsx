@@ -3,6 +3,7 @@ import "./contacts.scss";
 import { FaPhoneAlt, FaTelegram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import Download from "../download/Download";
 
 const Contacts = () => {
   return (
@@ -56,6 +57,7 @@ const Contacts = () => {
           </a>
         </div>
       </div>
+      <Download />
     </div>
   );
 };

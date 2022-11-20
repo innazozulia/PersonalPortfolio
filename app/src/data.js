@@ -18,7 +18,7 @@ export const featured = [
     title: "News Magazine",
     img: "https://innazozulia-cv.vercel.app/images/img-21.png",
     technologies: "ReactJS, modules CSS",
-    scr: "https://news-mazagine.vercel.app/",
+    src: "https://news-mazagine.vercel.app/",
   },
   {
     id: 4,
@@ -42,21 +42,20 @@ export const featured = [
     src: "https://blissful-bassi-64255f.netlify.app/",
   },
 
-  {
-    id: 7,
-    title: "Grocery Shop",
-    img: "https://innazozulia-cv.vercel.app/images/img-9.png",
-    technologies: "HTML, CSS, JS",
-    src: "https://sleepy-panini-1b4076.netlify.app/home.html",
-  },
-  {
-    id: 8,
-    title: "Bird Social Media",
-    img: "assets/social.png",
-    technologies: "NodeJS, Express, ReactJS, MySQL",
-    scr: "https://github.com/innazozulia/BirdSocialMedia-ReactJS-NodeJS-MySQL-.git",
-  },
-  //todo
+  // {
+  //   id: 7,
+  //   title: "Grocery Shop",
+  //   img: "https://innazozulia-cv.vercel.app/images/img-9.png",
+  //   technologies: "HTML, CSS, JS",
+  //   src: "https://sleepy-panini-1b4076.netlify.app/home.html",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Bird Social Media",
+  //   img: "assets/social.png",
+  //   technologies: "NodeJS, Express, ReactJS, MySQL",
+  //   scr: "https://github.com/innazozulia/BirdSocialMedia-ReactJS-NodeJS-MySQL-",
+  // },
 ];
 
 export const layout = [
@@ -93,7 +92,7 @@ export const layout = [
     title: "Design Agency",
     img: "https://innazozulia-cv.vercel.app/images/img-1.png",
     technologies: "HTML, CSS, JS",
-    scr: "https://festive-hopper-896958.netlify.app/",
+    src: "https://festive-hopper-896958.netlify.app/",
   },
   {
     id: 6,
@@ -102,27 +101,27 @@ export const layout = [
     technologies: "HTML, CSS, JS",
     src: "https://adoring-wright-5c2ff1.netlify.app/",
   },
-  {
-    id: 7,
-    title: "Medical Clinic",
-    img: "https://innazozulia-cv.vercel.app/images/img-7.png",
-    technologies: "HTML, CSS, JS",
-    src: "https://cranky-heisenberg-5409e8.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Grocery Shop",
-    img: "https://innazozulia-cv.vercel.app/images/img-9.png",
-    technologies: "HTML, CSS, JS",
-    src: "https://sleepy-panini-1b4076.netlify.app/home.html",
-  },
-  {
-    id: 9,
-    title: "Tech Provider",
-    img: "https://innazozulia-cv.vercel.app/images/img-8.png",
-    technologies: "HTML, CSS, JS",
-    src: "https://superlative-creponne-76c22a.netlify.app/",
-  },
+  // {
+  //   id: 7,
+  //   title: "Medical Clinic",
+  //   img: "https://innazozulia-cv.vercel.app/images/img-7.png",
+  //   technologies: "HTML, CSS, JS",
+  //   src: "https://cranky-heisenberg-5409e8.netlify.app/",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Grocery Shop",
+  //   img: "https://innazozulia-cv.vercel.app/images/img-9.png",
+  //   technologies: "HTML, CSS, JS",
+  //   src: "https://sleepy-panini-1b4076.netlify.app/home.html",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Tech Provider",
+  //   img: "https://innazozulia-cv.vercel.app/images/img-8.png",
+  //   technologies: "HTML, CSS, JS",
+  //   src: "https://superlative-creponne-76c22a.netlify.app/",
+  // },
 ];
 
 export const reactjs = [
@@ -145,7 +144,7 @@ export const reactjs = [
     title: "News Magazine",
     img: "https://innazozulia-cv.vercel.app/images/img-21.png",
     technologies: "ReactJS, modules CSS",
-    scr: "https://news-mazagine.vercel.app/",
+    src: "https://news-mazagine.vercel.app/",
   },
   {
     id: 4,
@@ -168,13 +167,13 @@ export const reactjs = [
     technologies: "ReactJS, mockApi, SCSS",
     src: "https://your-booking-4t4ipfsi2-innazozulia.vercel.app/",
   },
-  {
-    id: 7,
-    title: "E-commerce",
-    img: "assets/ecom.png",
-    technologies: "ReactJS, SCSS",
-    src: "",
-  },
+  // {
+  //   id: 7,
+  //   title: "E-commerce",
+  //   img: "assets/ecom.png",
+  //   technologies: "ReactJS, SCSS",
+  //   src: "",
+  // },
 ];
 export const fullstack = [
   {
@@ -182,35 +181,35 @@ export const fullstack = [
     title: "techNotes",
     img: "assets/technotes.png",
     technologies: "NodeJS, Express, ReactJS, MongoDB",
-    src: "https://github.com/innazozulia/MERN_techNotes.git",
+    src: "https://github.com/innazozulia/MERN_techNotes",
   },
   {
     id: 2,
     title: "Bird Social Media",
     img: "assets/social.png",
     technologies: "NodeJS, Express, ReactJS, MySQL",
-    scr: "https://github.com/innazozulia/BirdSocialMedia-ReactJS-NodeJS-MySQL-.git",
+    src: "https://github.com/innazozulia/BirdSocialMedia-ReactJS-NodeJS-MySQL-",
   },
   {
     id: 3,
     title: "News Magazine",
     img: "assets/articles.png",
     technologies: "NodeJS, Express, ReactJS, MySQL",
-    src: "https://github.com/innazozulia/MagazineWithArticlesReactJsExpressMySql.git",
+    src: "https://github.com/innazozulia/MagazineWithArticlesReactJsExpressMySql",
   },
   {
     id: 4,
     title: "My books",
     img: "assets/books.png",
     technologies: "NodeJS, Express, ReactJS, MongoDB",
-    src: "https://github.com/innazozulia-zz/MERNBookTracker.git",
+    src: "https://github.com/innazozulia-zz/MERNBookTracker",
   },
   {
     id: 5,
     title: "Blog",
     img: "assets/article.png",
     technologies: "NodeJS, Express, ReactJS, MongoDB",
-    src: "https://github.com/innazozulia/MagazineWithArticlesReactJsExpressMySql.git",
+    src: "https://github.com/innazozulia/MagazineWithArticlesReactJsExpressMySql",
   },
 ];
 
@@ -240,14 +239,14 @@ export const sliderItems = [
     id: 4,
     img: "assets/blog.png",
     title: "News Magazine",
-    scr: "https://news-mazagine.vercel.app/",
+    src: "https://news-mazagine.vercel.app/",
     bg: "f5fafd",
   },
   {
     id: 5,
     img: "assets/social.png",
     title: "Social Media",
-    scr: "https://github.com/innazozulia/BirdSocialMedia-ReactJS-NodeJS-MySQL-.git",
+    src: "https://github.com/innazozulia/BirdSocialMedia-ReactJS-NodeJS-MySQL-",
     bg: "fcf1ed",
   },
   {

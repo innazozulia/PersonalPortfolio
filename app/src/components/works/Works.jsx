@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { sliderItems } from "../../data";
+
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -44,20 +45,45 @@ const Slide = styled.div`
   display: flex;
   align-items: center;
   background-color: #${(props) => props.bg};
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
+  @media (max-width: 900px) {
+    flex: 4;
+  }
+  @media (max-width: 600px) {
+    flex: 6;
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 const Image = styled.img`
   height: 80%;
+  @media (max-width: 900px) {
+    max-width: 100%;
+    height: 500px;
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    maxiwidth: 400px;
+  }
 `;
 
 const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 
 const Title = styled.h1`
