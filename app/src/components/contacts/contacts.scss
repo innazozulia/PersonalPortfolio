@@ -1,8 +1,70 @@
+@import "../../global.scss";
+
 .contacts {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        font-size: 50px;
+
+
+    }
+
     .contact {
         display: flex;
-        // .contact-item{
+        flex-direction: row;
 
-        // }
+        .contact-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            margin: 0 20px;
+
+            // &:hover {
+            //     transform: scale(1.5);
+            // }
+
+            .link {
+                text-decoration: none;
+                color: $mainColor;
+
+                h3 {
+                    font-size: inherit;
+                    color: inherit;
+                    transition: all 1s ease;
+
+                    &:hover {
+                        transform: scale(1.5);
+                    }
+                }
+
+
+            }
+
+
+        }
+
+
+
     }
+
+    .links {
+        .link-more {
+            display: flex;
+            gap: 20px;
+
+            .link-icon {
+                color: $mainColor;
+            }
+        }
+
+    }
+
 }

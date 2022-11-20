@@ -1,14 +1,13 @@
 import React from "react";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { sliderItems } from "../../data";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
-  margin-top: 30px;
+  margin-top: 70px;
   position: relative;
   overflow: hidden;
 `;
@@ -99,9 +98,9 @@ const Works = () => {
             </ImgContainer>
             <InfoContainer>
               <Title>{item.title}</Title>
-              <Link to={item.src}>
-                <Button>SHOW NOW</Button>
-              </Link>
+              <a href={item.src}>
+                <Button>SHOW MORE</Button>
+              </a>
             </InfoContainer>
           </Slide>
         ))}
