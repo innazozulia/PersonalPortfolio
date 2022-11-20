@@ -16,8 +16,6 @@
 
 
         .img-container {
-            // width: 700px;
-            // height: 700px;
             background-color: #93C3F1;
             border-radius: 50%;
             display: flex;
@@ -73,6 +71,7 @@
 
             h3 {
                 font-size: 30px;
+                padding: 0 5px;
 
                 @include mobile {
                     font-size: 20px;
@@ -81,6 +80,7 @@
                 span {
                     font-size: inherit;
                     color: #F84825;
+                    padding: 0 5px;
                 }
 
                 .ityped-cursor {
@@ -107,7 +107,6 @@
 
         a {
             position: absolute;
-            // bottom: 10px;
             bottom: -30px;
             left: 40%;
             font-size: 50px;

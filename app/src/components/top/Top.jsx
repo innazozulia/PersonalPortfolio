@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTelegram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
 import "./top.scss";
 
 const Top = ({ menuOpen, setMenuOpen }) => {
@@ -11,7 +12,7 @@ const Top = ({ menuOpen, setMenuOpen }) => {
           <a
             href="#intro"
             className="logo">
-            web.
+            myWeb.
           </a>
           <div className="item-container">
             <FaTelegram className="icon" />

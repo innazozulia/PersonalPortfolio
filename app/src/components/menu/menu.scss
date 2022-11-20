@@ -42,5 +42,16 @@
         }
     }
 
+    .links {
+        .link-more {
+            display: flex;
+            gap: 20px;
+
+            .link-icon {
+                color: white;
+            }
+        }
+
+    }
 
 }

@@ -1,3 +1,5 @@
+import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+
 import "./menu.scss";
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
@@ -17,7 +19,25 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
           <a href="#contact">Contact me</a>
         </li>
       </ul>
-      <div className="links"></div>
+      <div className="links">
+        <div className="link-more">
+          <a
+            href="https://github.com/innazozulia"
+            className="link-icon">
+            <BsGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/inna-zozulia-426367174/"
+            className="link-icon">
+            <BsLinkedin />
+          </a>
+          <a
+            href="https://www.instagram.com/wayoutofhead/"
+            className="link-icon">
+            <BsInstagram />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
