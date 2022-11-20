@@ -1,6 +1,7 @@
 import React from "react";
 import { layout, reactjs, fullstack, featured } from "../../data";
 import PortfolioContent from "../portfolioContent/PortfolioContent";
+// import { Link } from "react-router-dom";
 import "./portfolio.scss";
 
 const Portfolio = () => {
@@ -54,7 +55,7 @@ const Portfolio = () => {
           <PortfolioContent
             key={item.id}
             title={item.title}
-            src={item.src}
+            // src={item.src}
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
@@ -66,13 +67,15 @@ const Portfolio = () => {
           <div
             className="item"
             key={d.id}>
-            {/* <a href={d.src}> */}
-            <img
-              src={d.img}
-              alt=""
-            />
-            <h3>{d.title}</h3>
-            {/* </a> */}
+            <a href={d.src}>
+              <img
+                src={d.img}
+                alt=""
+              />
+              <h3>{d.title}</h3>
+            </a>
+
+            {/* </Link> */}
           </div>
         ))}
       </div>

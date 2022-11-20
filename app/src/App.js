@@ -1,32 +1,14 @@
-import React from "react";
-import Top from "./components/top/Top";
-import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
-import Contacts from "./components/contacts/Contacts";
-
-import "./app.scss";
-import Menu from "./components/menu/Menu";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./components/homePage/HomePage";
 
 function App() {
-  const [menuOpen, setMenuOpen] = React.useState(false);
   return (
-    <div className="app">
-      <Top
-        menuOpen={menuOpen}
-        setMenuOpen={setMenuOpen}
+    <Routes>
+      <Route
+        path="/"
+        element={<HomePage />}
       />
-      <Menu
-        menuOpen={menuOpen}
-        setMenuOpen={setMenuOpen}
-      />
-      <div className="sections">
-        <Intro />
-        <Portfolio />
-        <Works />
-        <Contacts />
-      </div>
-    </div>
+    </Routes>
   );
 }
 

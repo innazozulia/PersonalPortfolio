@@ -17,6 +17,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
           <a href="#contact">Contact me</a>
         </li>
       </ul>
+      <div className="links"></div>
     </div>
   );
 };
